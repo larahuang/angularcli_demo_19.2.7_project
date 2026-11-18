@@ -96,3 +96,34 @@ For more information on using the Angular CLI, including detailed command refere
   <li>tsconfig.json // 工作區中各專案的基礎 TypeScript 設定。所有其他設定檔都繼承自此基礎檔案。更多資訊，請參閱相關的 TypeScript 文件。</li>
   <li>tsconfig.spec.json //用於測試的 TypeScript 設定。</li>
 </ul>
+
+
+### Angular Material快速建立各種元件
+快速建立各種元件指令
+```
+ng add @angular/material
+```
+終端機出現以下
+```
+✔ Determining Package Manager
+  › Using package manager: npm
+✔ Searching for compatible package version
+  › Found compatible package version: @angular/material@19.2.19.
+✔ Loading package information from registry
+⠹ Confirming installation
+
+The package @angular/material@19.2.19 will be installed and executed.
+Would you like to proceed? (Y/n)
+```
+
+<div><b>使用Angular Material來幫我們快速建立各種元件</b></div>
+```
+ng g c 頁面或是功能
+```
+生成的檔案會是『大寫小寫英文-大寫小寫英文.component』副檔名會有
+<ol>
+  <li>.css </li>
+  <li>.html </li>
+  <li>.spec.ts  </li>
+  <li>.ts </li>
+</ol>

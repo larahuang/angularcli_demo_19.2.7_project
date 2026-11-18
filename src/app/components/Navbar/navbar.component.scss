@@ -1,0 +1,16 @@
+ul{
+  display: flex;
+  padding-inline-start: 0px;
+  li {
+    display: flex;
+
+    padding-right:  8px;
+    a{
+      text-decoration: none;
+      color:#666;
+      &:hover{
+        color:#333;
+      }
+    }
+  }
+}
