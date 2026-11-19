@@ -32,6 +32,8 @@ ng generate --help
 
 To build the project run:
 要建置項目，請運行：
+angular.json內的設定：
+<a href="https://blog-lara.vercel.app/2025/03/30/angular_build/" target="_blank">angular.json內的設定</a>
 ```bash
 ng build
 ```
@@ -127,3 +129,5 @@ ng g c 頁面或是功能
   <li>.spec.ts  </li>
   <li>.ts </li>
 </ol>
+
+
